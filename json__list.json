@@ -1,0 +1,30 @@
+{
+  "fnp": {
+    "familia": "Zavorotnii",
+    "numele": "Alexandru",
+    "patronimicul": "Igor"
+  },
+  "birthday": "28.06.2005",
+  "number": "068192555",
+  "adress": "str. Colesov 8",
+  "e-mail": "zavorotnii.alexandrgithub@gmail.com",
+  "gender": "men",
+  "job": "frontend developer",
+  "data of the start": "19.09.2024",
+  "IDNP": "1234567890123",
+  "salary": "3000$",
+  "birht place": {
+    "country": "Moldova",
+    "city / town": "Balti"
+  },
+  "experience": "10 years",
+  "departament": "frontend development",
+  "home number": "none",
+  "graphic": {
+    "mo": "at 8:00 to 17:00",
+    "Tu": "at 8:00 to 17:00",
+    "We": "at 8:00 to 17:00",
+    "Th": "at 8:00 to 17:00",
+    "Fr": "at 8:00 to 17:00"
+  }
+}

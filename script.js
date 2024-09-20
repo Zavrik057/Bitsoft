@@ -1,6 +1,6 @@
-"use strict"
 
 //fisrt task ------- get response number + strig 
+console.log('-----------------------task 1---------------------');
 
 function getNUmberString(number) {
    if (!number >= 1 && number <= 9) {
@@ -15,7 +15,7 @@ getNUmberString(9);
 //5m
 
 
-console.log('---------------------------------------------');
+console.log('----------------------task 2-------------------------');
 // 2 task ----- get summ from an interval
 
 function getSummFromInterval(interval) {
@@ -42,7 +42,7 @@ getSummFromInterval([20, 40]);
 
 //10min
 
-console.log('---------------------------------------------');
+console.log('--------------------------task 3------------------------');
 
 // 3 task get the biggest number from 3 input numbers
 
@@ -65,7 +65,7 @@ getMaximumfromThree([5, 10, 7]);
 //10 min
 
 
-console.log('---------------------------------------------');
+console.log('------------------------------------task 4---------');
 // task 4 ------- get the word with the first letter big
 
 function ucFirst(string) {
@@ -76,7 +76,7 @@ ucFirst('module');
 //10 min
 
 
-console.log('---------------------------------------------');
+console.log('-----------------------------------task 5----------');
 // 5 task ----------  get value form string;
 
 function extractCurrencyVallue(string) {
@@ -94,7 +94,7 @@ extractCurrencyVallue('£3000');
 
 //15 min
 
-console.log('---------------------------------------------');
+console.log('------------------------------------task 6---------');
 
 // 6 task return value -1 or 0 or 1 or error
 console.log(typeof (3));
@@ -113,7 +113,7 @@ getValue(0);
 
 //1min
 
-console.log('---------------------------------------------');
+console.log('---------------------------------task 7------------');
 
 // 7 task ------- return if range includes age
 
@@ -131,7 +131,7 @@ function includesAge(age) {
 includesAge(30);
 includesAge(10);
 
-console.log('---------------------------------------------');
+console.log('---------------------------------- task 8-----------');
 
 // 2 min
 
@@ -156,7 +156,7 @@ getResultOfExamination('Password', 'username');
 
 // 5 min
 
-console.log('---------------------------------------------');
+console.log('------------------------------task 9---------------');
 
 // 9 task ---------- user interaction 
 
@@ -175,7 +175,7 @@ function getPrompt() {
 }
 // 7min 
 
-console.log('---------------------------------------------');
+console.log('------------------------------ task 10---------------');
 
 // 10 task ------------  return the dividors
 
@@ -206,7 +206,7 @@ dividors(8);
 
 //10 min 
 
-console.log('---------------------------------------------');
+console.log('----------------------------task 1-----------------');
 
 /*============================ Arrays =========================================*/
 
@@ -273,7 +273,7 @@ function getConsoleArrays(array) {
 getConsoleArrays(['name', 'user', 'age']);
 // 16min
 
-console.log('---------------------------------------------');
+console.log('-------------------------------task 2--------------');
 
 // task 2 --------- create an array with minimum 10 numbers
 
@@ -292,7 +292,7 @@ getArrayOfNumbers();
 
 // 7min 
 
-console.log('---------------------------------------------');
+console.log('-----------------------------task 3----------------');
 
 // task 3 ---------- do some operations with an array
 
@@ -313,7 +313,7 @@ getArraysOperations();
 
 // 7min 
 
-console.log('---------------------------------------------');
+console.log('------------------------------task 4---------------');
 
 
 // task 4 ------------ get summ of numbers 
@@ -336,7 +336,7 @@ function sumInputNumbers() {
 
 // 15 min
 
-console.log('---------------------------------------------');
+console.log('----------------------------task 5-----------------');
 
 // task 5 -------------- change array due to a function
 
@@ -355,7 +355,7 @@ function fn(item) {
 }
 // 10min 
 
-console.log('---------------------------------------------');
+console.log('-----------------------------task 6----------------');
 
 
 // task 6 --------------- return the array with 3 zero in the middle of array 
@@ -369,7 +369,7 @@ getArray();
 
 // 4 min
 
-console.log('---------------------------------------------');
+console.log('----------------------------task 7-----------------');
 
 
 // task 7 -------------- get fragment from array
@@ -383,7 +383,7 @@ extract(2, 4);
 
 // 3min 
 
-console.log('---------------------------------------------');
+console.log('------------------------------task 8---------------');
 
 // task 8 --------------- get color index
 
@@ -397,7 +397,7 @@ checkColor('red');
 
 // 3min 
 
-console.log('---------------------------------------------');
+console.log('-----------------------------task 9----------------');
 
 
 // 9 task --------------- get filtred array with just numbers
@@ -414,7 +414,7 @@ function filter() {
 filter()
 // 3 min 
 
-console.log('---------------------------------------------');
+console.log('-----------------------------task 10-----------------');
 
 
 // task 10 ------------- delete dublicates from array and return sorted array
@@ -434,7 +434,7 @@ uniqueSort();
 
 // 14min
 
-console.log('---------------------------------------------');
+console.log('------------------------------task 11---------------');
 
 
 // 11 task ----------------- distructuring assignment array
@@ -448,7 +448,7 @@ function distructuringAssignment() {
 }
 distructuringAssignment();
 
-console.log('---------------------------------------------');
+console.log('-----------------------------task 1----------------');
 
 /*====================== Objects =================================================*/
 
@@ -465,7 +465,7 @@ function getObjectOperations() {
 getObjectOperations();
 // 2 min
 
-console.log('---------------------------------------------');
+console.log('--------------------------task 2-------------------');
 
 
 
@@ -486,7 +486,7 @@ function getSalariesSumm() {
 getSalariesSumm();
 // 3min
 
-console.log('---------------------------------------------');
+console.log('---------------------------task 3------------------');
 
 
 // task 3 ------------ get multiply numbers in object
@@ -510,7 +510,7 @@ multiplyNumeric(menu);
 
 // 5min 
 
-console.log('---------------------------------------------');
+console.log('--------------------------task 4-------------------');
 
 
 // task 4 ---------- get a copy of an object and change the values
@@ -531,7 +531,7 @@ changeValues();
 
 // 5 min
 
-console.log('---------------------------------------------');
+console.log('------------------------task 5---------------------');
 
 
 // task 5 ----------- change object values
@@ -556,7 +556,7 @@ changeObject();
 
 // 4min
 
-console.log('---------------------------------------------');
+console.log('--------------------------------task 6----------');
 
 
 // task 6 ------------- return corect coords
@@ -579,7 +579,7 @@ corectCoords();
 
 // 5min
 
-console.log('---------------------------------------------');
+console.log('----------------------------task 7-------------------');
 
 
 // task 7 ------------ get function to object
@@ -587,17 +587,36 @@ console.log('---------------------------------------------');
 function objectFunction() {
    let person = {
       name: 'Person',
+      get returnName() {
+         return this.name;
+      },
       age: 123,
+      get returnAge() {
+         return this.age;
+      },
       salary: 1542.33,
+      get returnSalary() {
+         return this.salary;
+      },
       contacts: {
          phone: '112',
          email: 'emaill@domain.com',
       },
+      get returnContacts() {
+         return (this.contacts.phone + ' / ' + this.contacts.email);
+      },
       address: 'Moldova',
+      get returnAdress() {
+         return this.address;
+      }
    }
-   // ????????/
+   console.log(person.returnContacts);
 }
+objectFunction();
 
+// 10 min
+
+console.log('----------------------task 8-----------------------');
 // task 8 ------------- translate the values from an object
 
 function translate() {
@@ -621,7 +640,7 @@ function translate() {
 translate();
 // 10 min
 
-console.log('---------------------------------------------');
+console.log('----------------------------------task 9-----------');
 
 
 // task 9 ------------ change the keys with the values
@@ -645,7 +664,7 @@ resetObject(weekDays);
 
 // 6min 
 
-console.log('---------------------------------------------');
+console.log('-----------------------------------task 10----------');
 
 
 // task 10 ---------------  get another array with just the same values from both arrays
@@ -695,7 +714,7 @@ function getSame(array1, array2, key, item, finalArray) {
 }
 // 15 min 
 
-console.log('---------------------------------------------');
+console.log('--------------------------------task 11-------------');
 
 
 // task 11 ------------ get array with students
@@ -810,7 +829,7 @@ function BetterThanMedia(mediaCatalog) {
 
 // 1 hour
 
-console.log('---------------------------------------------');
+console.log('--------------------------------task 12-------------');
 
 
 // task 12 --------- get distructuring info from an object
@@ -829,7 +848,7 @@ displayName(person);
 
 // 6min 
 
-console.log('---------------------------------------------');
+console.log('-----------------------------task 1----------------');
 
 /*============================ Date and time ========================================*/
 
@@ -848,7 +867,7 @@ curDay('-');
 
 // 4min 
 
-console.log('---------------------------------------------');
+console.log('------------------------------task 2---------------');
 
 
 // task 2 ------------- get days in a month 
@@ -863,7 +882,7 @@ getDaysInMonth(2, 2024);
 
 // 10 min 
 
-console.log('---------------------------------------------');
+console.log('-----------------------------task 3----------------');
 
 
 // task 3 ------------- get the name of month
@@ -878,7 +897,7 @@ getNameOfMonth(new Date('02.20.2020'));
 
 // 6min 
 
-console.log('---------------------------------------------');
+console.log('----------------------------task 4-----------------');
 
 
 // task 4 -------------- date comparison
@@ -894,7 +913,7 @@ dateComparison(new Date(3, 13, 2020), new Date(3, 13, 2020));
 
 // 6min 
 
-console.log('---------------------------------------------');
+console.log('-----------------------------task 5----------------');
 
 
 // task 5 --------------- conversion of minutes in hours and minutes
@@ -909,7 +928,7 @@ conversionOfMinutes(340);
 
 // 6min 
 
-console.log('---------------------------------------------');
+console.log('-----------------------------task 6----------------');
 
 
 // task 6 ------------- get age of a perosn
@@ -929,7 +948,7 @@ getAge(new Date(2006, 3, 1));
 
 // 25 min 
 
-console.log('---------------------------------------------');
+console.log('----------------------------task 7-----------------');
 
 
 // task 7 -------------- add specified years to a date
@@ -944,7 +963,7 @@ console.log(add_Years(dt, 13).toString());
 
 // 7 min 
 
-console.log('---------------------------------------------');
+console.log('--------------------------task 8-------------------');
 
 
 // task 8 -------------- create clocks on the page
@@ -1083,14 +1102,486 @@ function createClocks() {
       clearInterval(timeAdd);
    });
 }
-
 createClocks();
+
 
 // 40 min 
 
-console.log('---------------------------------------------');
+console.log('---------------------task 9------------------------');
 
-// task 9 
+// task 9 create a timer by the intermediate of inputs
+
+function getTimer() {
+   let inputSeconds = document.querySelector('.input__seconds');
+   let inputHours = document.querySelector('.input__hours');
+   let inputMinutes = document.querySelector('.input__minutes');
+
+   let timer = document.createElement('div');
+   timer.classList.add('timer');
+
+   let timerHours = document.createElement('div');
+   timerHours.classList.add('timer__hours');
+
+   let timerMinutes = document.createElement('div');
+   timerHours.classList.add('timer__minutes');
+
+   let timerSeconds = document.createElement('div');
+   timerHours.classList.add('timer__seconds');
+
+   timer.append(timerHours);
+   timerHours.after(':');
+   timer.append(timerMinutes);
+   timerMinutes.after(':');
+   timer.append(timerSeconds);
+
+   let timerStyles = {
+      'width': '100%',
+      'display': 'flex',
+      'align-items': 'center',
+      'justify-content': 'center',
+      'font-size': '30px',
+   }
+
+   for (let css in timerStyles) {
+      timer.style[css] = timerStyles[css];
+   }
+
+   let timerButton = document.createElement('div');
+   timerButton.classList.add('timer__button');
+
+   let timerButtonStyles = {
+      'min-width': '100px',
+      'min-height': '50px',
+      'padding': '10px',
+      'display': 'flex',
+      'align-items': 'center',
+      'justify-content': 'center',
+      'background': 'whitesmoke',
+      'border-radius': '10px',
+      'color': 'black',
+      'font-size': '20px',
+   };
+
+   for (let css in timerButtonStyles) {
+      timerButton.style[css] = timerButtonStyles[css];
+   }
+   timerButton.innerText = 'Get timer';
+
+   let inputsblock = document.querySelector('.inputs');
+   inputsblock.append(timerButton);
+
+   let secconds = 0;
+   let minutes = 0;
+   let hours = 0;
+
+
+   timerButton.addEventListener('click', (event) => {
+      secconds = +inputSeconds.value;
+      minutes = +inputMinutes.value;
+      hours = +inputHours.value;
+      inputsblock.append(timer);
+
+      console.log(inputSeconds.value);
+      console.log(inputMinutes.value);
+      console.log(inputHours.value);
+
+      timerHours.innerHTML = '00';
+      timerMinutes.innerHTML = '00';
+      timerSeconds.innerHTML = '00';
+
+      let timerCount = new Date();
+      if (hours == '') {
+         timerCount.setHours(0);
+      } else {
+         timerCount.setHours(hours);
+      }
+
+      if (minutes == '') {
+         timerCount.setMinutes(0);
+      } else {
+         timerCount.setMinutes(minutes);
+      }
+
+      if (secconds == '') {
+         timerCount.setSeconds(0);
+      } else {
+         timerCount.setSeconds(secconds);
+      }
+
+      let isTime = setInterval(() => {
+
+         if (timerCount.getHours() == 0 && timerCount.getMinutes() == 0 && timerCount.getSeconds() == 0) {
+            clearInterval(isTime);
+         }
+
+         if (timerCount.getHours() < 10) {
+            timerHours.innerHTML = `0${timerCount.getHours()}`;
+         } else {
+            timerHours.innerHTML = timerCount.getHours();
+         }
+
+         if (timerCount.getMinutes() < 10) {
+            timerMinutes.innerHTML = `0${timerCount.getMinutes()}`;
+         } else {
+            timerMinutes.innerHTML = timerCount.getMinutes();
+         }
+
+         if (timerCount.getSeconds() < 10) {
+            timerSeconds.innerHTML = `0${timerCount.getSeconds()}`;
+         } else {
+            timerSeconds.innerHTML = timerCount.getSeconds();
+         }
+
+         timerCount.setSeconds(timerCount.getSeconds() - 1);
+      }, 1000);
+
+   });
+}
+getTimer();
+
+// 1 hour
+
+console.log('-----------------------------task 1----------------');
+
+/*================================= Json =====================================*/
+
+// task 1 ---------- converting of an array to JSON
+
+function get_JSON_Array() {
+   const names = ['james', 'jake'];
+   console.log(JSON.stringify(names));
+}
+get_JSON_Array();
+
+// 1min 
+
+console.log('---------------------------task 2------------------');
+
+
+// task 2 --------- converting Object to JSON
+
+function get_JSON_Object() {
+   const power = { voltage: 250, current: 12 };
+   console.log(JSON.stringify(power));
+}
+get_JSON_Object();
+
+// 1 min 
+
+console.log('------------------------------task 3---------------');
+
+// task 3 ---------- converting JSON to Array
+
+function get_Array_From_JSON() {
+   let array = ['james', 'jake'];
+   let json = JSON.stringify(array);
+   console.log(JSON.parse(json));
+}
+get_Array_From_JSON();
+
+// 3 min
+
+console.log('---------------------------task 4------------------');
+
+
+// task 4 ----------- converting JSON to Object
+
+function get_Object_From_JSON() {
+   let object = {
+      'name': 'Ion Creanga',
+      'age': 123,
+   }
+   let json = JSON.stringify(object);
+   console.log(JSON.parse(json));
+}
+get_Object_From_JSON();
+// 2 min
+
+console.log('--------------------------task 5-------------------');
+
+
+// task 5 ----------- store complex data in json
+
+
+function getComplexData() {
+   let list;
+   fetch('./json__list.json')
+      .then(res => res.json())
+      .then(info => {
+         list = info;
+      });
+   console.log(list);
+   let familia = document.querySelector('.info__output--familia');
+   familia.innerHTML = list.fnp.familia;
+
+   let name = document.querySelector('.info__output--name');
+   name.innerHTML = list.fnp.numele;
+
+   let patronim = document.querySelector('.info__output--patronim');
+   patronim.innerHTML = list.fnp.patronimicul;
+
+   let birthDate = document.querySelector('.info__birhday');
+   birthDate.innerHTML = list.birthday;
+
+   let number = document.querySelector('.info__number');
+   number.innerHTML = list.number;
+
+   let address = document.querySelector('.info__adress');
+   address.innerHTML = list.adress;
+
+   let email = document.querySelector('.info__email');
+   email.innerHTML = list['e-mail'];
+
+   let gender = document.querySelector('.info__gender');
+   gender.innerHTML = list.gender;
+
+   let job = document.querySelector('.info__job');
+   job.innerHTML = list.job;
+
+   let startWork = document.querySelector('.info__star-of-work');
+   startWork.innerHTML = list['data of the start'];
+
+   let idnp = document.querySelector('.info__idnp');
+   idnp.innerHTML = list['IDNP'];
+
+   let salary = document.querySelector('.info__salary');
+   salary.innerHTML = list.salary;
+
+   let bithPlace = document.querySelector('.info__bith-place');
+   bithPlace.innerHTML = list['birht place'];
+
+   let workTime = document.querySelector('.info__work-time');
+   workTime.innerHTML = list.experience;
+
+   let departament = document.querySelector('.info__departament');
+   departament.innerHTML = list.departament;
+
+   let homeNumber = document.querySelector('.info__home-number');
+   homeNumber.innerHTML = list['home number'];
+
+   let grafic = document.querySelector('.info__grafic');
+   grafic.append(list.graphic.mo);
+   grafic.append(list.graphic.Tu);
+   grafic.append(list.graphic.We);
+   grafic.append(list.graphic.Th);
+   grafic.append(list.graphic.Fr);
+}
+//getComplexData();
+
+
+console.log('----------------------------task 6-----------------');
+
+// task 6 ---------
+
+
+
+/*=============================== Algorithms =====================================*/
+
+console.log('---------------------task 1----------------------');
+
+// task 1 --------- get the result 0, 99, 2, 97, …, 3, 98, 1
+
+function getRow() {
+   let array = [];
+   let a = 99;
+   let b = 0;
+   for (let index = 0; index < (a + b); index++) {
+      array.push(b, a);
+      b++;
+      a--;
+   }
+   console.log(array.join(', '));
+}
+getRow();
+
+// 2 min 
+
+console.log('----------------------------task 2-----------------');
+
+
+// taks 2 --------- get fibbonaci subsequence
+
+function getFibbonaci(n) {
+   let fibbonaciArray = [0, 1];
+   if (n == 1) {
+      return console.log('0');
+   }
+   if (n == 2) {
+      return console.log('0, 1');
+   }
+   for (let index = 0; index < n - 2; index++) {
+      let newElement = fibbonaciArray[fibbonaciArray.length - 1] + fibbonaciArray[fibbonaciArray.length - 2];
+      fibbonaciArray.push(newElement);
+   }
+   console.log(fibbonaciArray.join(', '));
+}
+getFibbonaci(15);
+
+// 3 min
+
+console.log('--------------------------task 3-----------------');
+
+
+// task 3 ---------- get factorial 
+
+let factorial = 1;
+function getFactorial(n, factorial) {
+   if (n == 0) {
+      return console.log(factorial);
+   }
+   factorial = factorial * n;
+   getFactorial(n - 1, factorial);
+}
+getFactorial(6, factorial);
+
+// 8 min
+
+console.log('-------------------task 4----------------------');
+
+
+// task 4 ---------- get power of element from 0 to 100
+
+function getPow() {
+   let array = [0];
+   for (let index = 0; index <= 100; index++) {
+      array.push(Math.pow(index, 2));
+   }
+   console.log(array.join(', '));
+}
+getPow();
+
+// 2 min
+
+console.log('------------------------task 5-----------------');
+
+
+// task 5 ----------- get prime number
+
+function getPrimeNumb(n) {
+   let array = [2];
+
+   for (let index = 2; index < n; index++) {
+      if (index % 2 == 0 && index != n) {
+         continue;
+      }
+      if (String(index).split('').reduce((value, item) => { return value + +item }, 0) % 3 == 0 && index != 3) {
+         continue;
+      }
+      if (String(index)[String(index).length - 1] == 0 || String(index)[String(index).length - 1] == 5 && index != 0 && index != 5) {
+         continue;
+      }
+      if (array.includes(Math.sqrt(index))) {
+         continue;
+      }
+      let includes = true;
+      for (let count = 0; count < array.length; count++) {
+         if (index % array[count] == 0) {
+            includes = false;
+         };
+      }
+      if (includes) {
+         array.push(index);
+      }
+
+   }
+   console.log(array);
+}
+getPrimeNumb(120);
+
+//10 min 
+
+console.log('------------------------task 6------------------');
+
+
+// task 6 ------- get list on HTML due to DOM
+
+let data = {
+   "Рыбы": {
+      "форель": {},
+      "лосось": {}
+   },
+
+   "Деревья": {
+      "Огромные": {
+         "секвойя": {},
+         "дуб": {}
+      },
+      "Цветковые": {
+         "яблоня": {},
+         "магнолия": {}
+      }
+   },
+};
+let container = document.getElementById('container');
+let dotsStyles = ['disc', 'cercle', 'square', 'georgian', 'disc'];
+
+function createList(container, data, count, dotsStyles, marginLeft) {
+   let ul = document.createElement('ul');
+   console.log(count);
+   ul.style['list-style-type'] = dotsStyles[count];
+   ul.style['margin-left'] = (marginLeft) + 'px';
+   ul.style['display'] = 'flex';
+   ul.style['flex-direction'] = 'column';
+   ul.style['gap'] = '5px';
+   ul.style['padding-top'] = '5px';
+   count--;
+   container.append(ul);
+
+   for (let key in data) {
+      let listItem = document.createElement('li');
+      listItem.innerHTML = key;
+      ul.append(listItem);
+      if (Object.keys(data[key]) != '') {
+         createList(listItem, data[key], count = count + 2, dotsStyles, 30);
+         count = count - 2;
+      }
+   }
+}
+createList(container, data, 0, dotsStyles, 30);
+
+/*function func(data) {
+   let arrKeys1 = [];
+   for (let key in data) {
+      arrKeys1.push(data[key]);
+   }
+   for (let index = 0; index < arrKeys1.length; index++) {
+      getList(data, index, arrKeys1[index]);
+   }
+   console.log(arrKeys1);
+}
+func(data);
+
+function getList(data, index, arrKey){
+   for(let key in arrKey[index]){
+      if(Object.keys(arrKey[index]) != ''){
+         console.log(key);
+         getList(data, index, arrKey[key]);
+      }
+   }
+}
+*/
+
+
+console.log('------------------task 7-------------------------');
+
+
+// task 7 ----------- get matrix
+
+function getMatrix(n) {
+   let matrix = [];
+   for (let index = 0; index < n; index++) {
+      let matrixRow = [];
+      for (let index = 0; index < n; index++) {
+         matrixRow.push(Math.floor(Math.random() * 10));
+      }
+      matrix.push(matrixRow);
+   }
+   console.log(matrix);
+}
+getMatrix(10);
+
+
+
 
 
 
